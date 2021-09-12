@@ -21,6 +21,7 @@ body {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .fa {
     padding: 4px;
@@ -66,6 +67,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: xx-large;
+    z-index: 1;
 }
 
 .team
