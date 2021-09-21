@@ -12,12 +12,10 @@ header {
   background-color: rgb(85, 83, 83);
   height: 12vh;
   color: white;
+  position: sticky;
+  z-index: 1;
   text-align: center;
   line-height: 12vh;
-}
-header h1 {
-    float: right;
-    margin-right: 50%;
 }
 #check {
     visibility: hidden;
@@ -106,4 +104,5 @@ header h1 {
 .content p {
   padding: 20px;
   text-align: justify;
+  transition: 0.7s;
 }
