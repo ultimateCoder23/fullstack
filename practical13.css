@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, purple, pink, #34495e);
+}
+
+.btn td button{
+    background-color: red;
+}
+
+main {
+  background-color: #fff;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  animation: appear 2s linear;
+}
+caption {
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+}
+table {
+  width: 95%;
+  margin: 10px;
+  background: white;
+  color: rgb(75, 73, 73);
+}
+thead {
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+}
+thead :nth-child(even) {
+  background-color: rgb(186, 247, 186);
+}
+thead :nth-child(odd) {
+  background-color: rgb(140, 217, 245);
+}
+td {
+  padding: 1%;
+  margin-top: 5px;
+  text-align: center;
+}
+.fa-plus,
+.fa-product-hunt {
+  background-color: rgb(98, 243, 98);
+}
+tbody {
+  color: black;
+}
+tbody :nth-child(1) td {
+  color: green;
+}
+tbody :nth-child(2n) {
+  background-color: rgb(124, 207, 124);
+}
+tbody :nth-child(2n) :nth-child(2n) {
+  background-color: rgb(98, 243, 98);
+}
+tbody :nth-child(odd) {
+  background-color: rgb(192, 224, 236);
+}
+tbody :nth-child(even) :nth-child(odd) {
+  background-color: rgb(140, 217, 245);
+}
+tbody :last-child :nth-child(n) button {
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+tbody :last-child :nth-child(n) button:hover {
+    background: red;
+    cursor: pointer;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
