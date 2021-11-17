@@ -1,0 +1,124 @@
+body {
+    background-image: url('./car-g3a50633db_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav  {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    background: white;
+    color: black;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+.nav ul li {
+    margin-left: 30px;
+}
+.nav ul li a:hover {
+    color: red;
+    cursor: pointer;    
+}
+.nav p {
+    position: relative;
+    right: 0;
+    margin-left: 100px;
+}
+.dropdown .inner {
+    display: none;
+}
+.dropdown:hover .inner  {
+    background: #ffff;
+    color: black;
+    position: absolute;
+    right: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner p {
+    margin-right: 80%;
+}
+.inner p:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+main {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    font-size: 4rem;
+}
+main div {
+    margin-top: 5px;
+    font-size: large;
+}
+main .button {
+    background: none;
+    font-weight: bold;
+    border: 4px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 55px;
+    transition: 0.5s;
+}
+main .button:hover {
+    background: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+}
+main .setting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    left: 90%;
+    top: 40;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    width: 40px;
+    background: white;
+    transition: 0.5s;
+}
+main .setting:hover {
+    transform: scale(1.1);
+}
+.mail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    left: 90%;
+    top: 10%;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    background: red;
+    transition: 0.5s;
+}
+.mail:hover {
+    transform: scale(1.1);
+}
